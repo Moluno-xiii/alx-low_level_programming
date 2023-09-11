@@ -7,22 +7,24 @@
 
 int main(void)
 {
-	int n;
+	int n, m;
 
 	for (n = 0; n <= 9; n++)
 	{
-		if (n < 9)
+		for (m = n + 1; m <= 9; m++)
 		{
-			putchar(n);
+			putchar(n + '0');
+			putchar(m + '0');
+		
+
+		if (n != 9 && m !=9)
+		{
 			putchar(',');
 			putchar(' ');
 		}
-		else
-		{
-			putchar(n);
-			putchar('\n');
 		}
 	}
 
+		putchar('\n');
 		return (0);
 }
