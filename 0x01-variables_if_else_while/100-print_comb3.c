@@ -13,13 +13,13 @@ int main(void)
 	{
 		if (n < 9)
 		{
-			putchar(n + '0');
+			putchar(n);
 			putchar(',');
 			putchar(' ');
 		}
 		else
 		{
-			putchar(n + '0');
+			putchar(n);
 			putchar('\n');
 		}
 	}
