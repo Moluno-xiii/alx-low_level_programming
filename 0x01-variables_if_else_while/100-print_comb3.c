@@ -11,16 +11,18 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		for (m = n + 1; m <= 9; m++)
+		for (m = 0; m <= 8; m++)
+		{
+		
+		if (m > n)
 		{
 			putchar(n + '0');
 			putchar(m + '0');
-		
-
-		if (n != 9 && m !=9)
-		{
-			putchar(',');
-			putchar(' ');
+			if (n != 8 || m != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 		}
 	}
