@@ -2,7 +2,7 @@
 
 /**
  * _islower - Checks for lower case alphabet
- * @c: character argument
+ * @alphabet: character argument
  * Return: 1 if alphabet is lowercase and 0 if alphabet is uppercase
  */
 
