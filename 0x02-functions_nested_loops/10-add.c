@@ -1,9 +1,12 @@
 #include "main.h"
 
  /**
-  * add - adds two integers and returns the result
+  * add - Adds two numbers
+  *
   * @num1: first number
+  *
   * @num2: second number
+  *
   * Return: Always 0 (success)
   */
 
