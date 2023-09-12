@@ -2,7 +2,7 @@
 /**
  * print_sign - Prints the sign of number
  * @number: integer to check
- * Return: 1 if number is positive, 0 if number is zero and -1 if number is negative
+ * Return: 1 if number is positive, 0 if number is zero and -1 if is negative
  */
 
 int print_sign(int number)
