@@ -1,7 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print all alpha 10 times.
- *
+ * _islower - Checks for lower case alphabet
+ * @c: character argument
+ * Return: 1 if alphabet is lowercase and 0 if alphabet is uppercase
  */
 
+int _islower(int alphabet)
+{
+	if (alphabet >= 'a' && alphabet <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+
+	return (alphabet);
+}
