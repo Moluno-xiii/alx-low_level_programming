@@ -3,14 +3,14 @@
 /**
  * _isalpha - Checks for alphabetic order
  *
- * @alphabet: Character argument
+ * @alpha: Character argument
  *
- * Return: 1 if alphabet is a letter, 0 otherwise
+ * Return: 1 if alpha is a letter, 0 otherwise
  */
 
-int _isalpha(int alphabet)
+int _isalpha(int alpha)
 {
-	if ((alphabet >= 'a' && alphabet <= 'z') || (alphabet >= 'A' && alphabet <= 'Z'))
+	if ((alpha >= 'a' && alpha <= 'z') || (alpha >= 'A' && alpha <= 'Z'))
 	{
 		return (1);
 	}
