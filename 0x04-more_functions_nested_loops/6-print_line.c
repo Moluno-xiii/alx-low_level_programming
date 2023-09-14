@@ -4,7 +4,7 @@
  * print_line - Prints a line using dashes
  * @n: number of dashes to use to print line
  *
- * Return: void
+ * Return: Always 0 (success)
  */
 
 void print_line(int n)
