@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _isupper - Checks if a lette is uppercase
  * @c: letter to check
