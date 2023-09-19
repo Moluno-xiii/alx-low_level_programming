@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * swap_int - Function returns the length of a string
- * @a: string
+ * _strlen - Function returns the length of a string
+ * @s: string
  *
  * Return: Always 0 (success)
  */
