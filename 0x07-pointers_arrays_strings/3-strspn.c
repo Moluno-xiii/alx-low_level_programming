@@ -8,9 +8,9 @@
  * Return: Always 0 (success)
  */
 
-unigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
-	unigned int a, b, c;
+	unsigned int a, b, c;
 
 	a = b = c = 0;
 
